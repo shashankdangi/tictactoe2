@@ -1,0 +1,67 @@
+/*************  ✨ Codeium Command 🌟  *************/
+.cell {
+  border: 1px solid black;
+  width: 75px;
+  height: 75px;
+  box-shadow: 0 0 0 1px;
+  cursor: pointer;
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.cellGrid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.Players {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  width: 225px;
+  height: fit-content;
+  border: 2px solid black;
+  background-color: white;
+  padding: 30px;
+  gap: 10px;
+}
+.Players .start {
+  all: unset;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.start:hover {
+  background-color: blue;
+  color: white;
+}
+
+.blur {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.762);
+}
+
+.form {
+  display: flex;
+}
+
+/******  3c2b8414-6302-4bf5-af9f-7f51f1c806f9  *******/
